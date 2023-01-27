@@ -1,7 +1,12 @@
 body {
     background-image: url("/images/background.jpg");
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: l
+    font-size: x-large
+  }
+  input{
+    border-radius: 20px;
+    height:30px ;
+    width: 200px;
   }
 fieldset{
     /* box-shadow: 5px 10px #888888; */
@@ -17,10 +22,11 @@ fieldset{
 .leftDiv{
     /* background-color: aqua; */
     width: 50vw;
-    height: 80vh;
+    height: auto;
     display: flex;
+    align-content: space-between;
     flex-direction: column;
-    gap: 200px;
+    gap: 175px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 100px;
