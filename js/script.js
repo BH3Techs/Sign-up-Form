@@ -12,7 +12,16 @@ const patterns = {
     //             yourname @ domain   .  com          ( .uk )
 };
 
+// validation function
+function validate(field, regex){
 
+    if(!regex.test(field.value)){
+        field.className = 'error';
+    }else{
+        field.className = regex;
+    }
+
+}
 textCells.forEach((cell) => {
     cell.addEventListener('keyup',(e) => {
         console.log(cell.className);
