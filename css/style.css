@@ -15,8 +15,14 @@ body {
 .leftDiv{
     /* background-color: aqua; */
     width: 50vw;
-    justify-content: space-between;
-    padding: 50px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .rightDiv{
     background-color: azure;
@@ -24,4 +30,5 @@ body {
 .items{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
