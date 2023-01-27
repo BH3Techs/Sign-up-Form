@@ -24,6 +24,6 @@ function validate(field, regex){
 }
 textCells.forEach((cell) => {
     cell.addEventListener('keyup',(e) => {
-        console.log(cell.className);
+        validate(e.target, patterns[e.target.attributes.name.value]);
     });
 });
