@@ -1,8 +1,10 @@
 body {
     background-image: url("/images/background.jpg");
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: l
   }
-.login{
-    box-shadow: 5px 10px #888888;
+fieldset{
+    /* box-shadow: 5px 10px #888888; */
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
@@ -15,10 +17,10 @@ body {
 .leftDiv{
     /* background-color: aqua; */
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    gap: 300px;
+    gap: 200px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 100px;
