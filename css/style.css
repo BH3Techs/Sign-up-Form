@@ -1,3 +1,6 @@
+input:focus{
+    background-color : rgba(126, 134, 240, 0.274);
+}
 body {
     background-image: url("/images/background.jpg");
     font-family:Verdana, Geneva, Tahoma, sans-serif;
