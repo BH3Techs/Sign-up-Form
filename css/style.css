@@ -1,11 +1,27 @@
 body {
     background-image: url("/images/background.jpg");
   }
+.login{
+    box-shadow: 5px 10px #888888;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
 .content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.rightDiv{
+.rightDiv,
+.leftDiv{
+    /* background-color: aqua; */
     width: 50vw;
     justify-content: space-between;
+    padding: 50px;
+}
+.rightDiv{
+    background-color: azure;
+}
+.items{
+    display: flex;
+    flex-direction: column;
 }
