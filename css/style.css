@@ -48,3 +48,8 @@ fieldset{
 input.error{
    background-color: rgb(245, 97, 97);
 }
+
+.bottomPart{
+    display: flex;
+    justify-content: space-between;
+}
