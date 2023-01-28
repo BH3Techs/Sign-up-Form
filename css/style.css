@@ -4,7 +4,8 @@ input:focus{
 body {
     background-image: url("/images/background.jpg");
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large
+    font-size: x-large;
+    height: 100%;
   }
   input{
     border-radius: 20px;
@@ -20,12 +21,13 @@ fieldset{
 .content{
     display: flex;
     justify-content: space-between;
+    height: 100%;
 }
 .rightDiv,
 .leftDiv{
     /* background-color: aqua; */
-    width: 50vw;
-    height: auto;
+    width: 50%;
+    height: 100%;
     display: flex;
     align-content: space-between;
     flex-direction: column;
